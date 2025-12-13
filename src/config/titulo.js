@@ -1,1 +1,1 @@
-module.exports = 'CIRED'
+module.exports = 'La jurisdicción constitucional'
