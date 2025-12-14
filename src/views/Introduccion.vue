@@ -17,7 +17,7 @@
     .bg-full-width.bg-color-3.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
           .col-lg.text-white
             p.mb-0 El abordaje de esta temática tiene una aplicación directa en el ejercicio profesional, especialmente en campos como el litigio constitucional, la asesoría jurídica pública y la defensa de derechos ante órganos de control. Asimismo, el conocimiento de la jurisdicción constitucional resulta clave para participar activamente en el debate jurídico político y en la construcción de una ciudadanía informada y responsable.

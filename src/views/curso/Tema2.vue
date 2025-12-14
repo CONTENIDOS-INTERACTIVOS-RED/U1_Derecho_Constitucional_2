@@ -12,7 +12,7 @@
     
         .bg-color-2.p-4(data-aos="fade-left").mb-3
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema2/2.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Este cambio paradigmático supuso una nueva relación entre el ciudadano y el derecho: cualquier persona, sin representación legal, puede acudir ante un juez para reclamar la protección de sus derechos. Esta lógica de empoderamiento jurídico ha sido uno de los sellos distintivos del nuevo constitucionalismo colombiano, y es un elemento esencial de su legitimidad democrática.
@@ -82,7 +82,7 @@
           .col-lg-8.order-lg-1
             .bg-color-1.p-5(data-aos="fade-left").mb-3
               .row.align-items-start
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/6.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   p.mb-0 La acción pública de inconstitucionalidad es uno de los mecanismos más importantes del sistema jurídico colombiano. Permite a cualquier ciudadano demandar normas jurídicas que se presumen contrarias a la Constitución Política, sin necesidad de acreditar interés directo ni afectación concreta. Esta posibilidad representa una ruptura con el modelo tradicional de control normativo, promoviendo una visión participativa del derecho constitucional y constituyendo una manifestación real del principio democrático y de la soberanía popular (Chávez Sáenz, 2024).
@@ -94,7 +94,7 @@
           .col-lg-6.mb-3.mb-lg-0
             .bg-color-3.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/7.svg", style="max-width: 90px").mx-auto
                 .col-lg.text-white
                   h5.mb-2 Artículo 40
@@ -103,14 +103,14 @@
           .col-lg-6.mb-3.mb-lg-0
             .bg-color-3.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/7.svg", style="max-width: 90px").mx-auto
                 .col-lg.text-white
                   h5.mb-2 Artículo 241
                   p.mb-0 Asigna a la Corte Constitucional la competencia para conocer de demandas contra normas legales, actos legislativos, tratados internacionales y leyes estatutarias, entre otras.
     
     .row.align-items-center.mb-5
-      .col-lg-auto
+      .col-lg-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema2/40.svg", style="max-width: 90px").mx-auto
       .col-lg
         p.mb-0 Este control abstracto y objetivo permite cuestionar la validez constitucional de una norma desde su promulgación, incluso si aún no ha sido aplicada. Así, se puede ejercer un control preventivo o un control correctivo si ya ha producido efectos contrarios a la Constitución. Las características clave de la acción son: 
@@ -174,10 +174,10 @@
               p.mb-0 <b>Sentencia C-141 de 2010</b>: anulación de una reforma constitucional que habilitaba la reelección presidencial por segunda vez consecutiva.
           p.mb-0 Estas decisiones han fortalecido el papel de la Corte como intérprete supremo de la Constitución y como garante del equilibrio democrático.
     
-    .row.align-items-center.mb-5
-      .col-lg-auto
+    .row.align-items-center.mb-5.justify-content-center
+      .col-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema2/40.svg", style="max-width: 90px").mx-auto
-      .col-lg
+      .col
         h2.mb-0 Tensiones y debates
     
     p.mb-5 A pesar de sus virtudes, la acción pública de inconstitucionalidad también ha generado controversias. Se ha cuestionado que la Corte actúe como legislador negativo, al anular leyes aprobadas democráticamente. Otros señalan que este mecanismo puede ser instrumentalizado para obstruir políticas públicas. No obstante, la Corte ha reiterado que su función no es legislar, sino asegurar que el legislador actúe dentro del marco constitucional, respetando tanto las formas como los contenidos esenciales del orden normativo.
@@ -188,9 +188,9 @@
           img(src="@/assets/curso/tema2/10.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
         .row.align-items-center.mb-3
-          .col-lg-auto
+          .col-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema2/40.svg", style="max-width: 90px").mx-auto
-          .col-lg
+          .col
             h2.mb-0 Función pedagógica y democrática
         p(data-aos="fade-left") Más allá de su dimensión jurídica, esta acción cumple un rol pedagógico e institucional. Permite vigilar el ejercicio del poder, fortalecer la legalidad y fomentar una cultura de respeto constitucional. Contribuye así a una democracia deliberativa, donde el derecho se convierte en herramienta de transformación social y de exigencia colectiva de justicia.
     
@@ -209,7 +209,7 @@
     
         .bg-color-1.p-5(data-aos="fade-left")
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema2/12.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Este mecanismo representa un cambio radical en la cultura jurídica nacional, pues rompe con los formalismos del derecho tradicional. La tutela es preferente, sumaria y subsidiaria. Esto significa que debe resolverse con rapidez, tiene prioridad sobre otros procesos judiciales, y solo procede si no existen otros medios judiciales eficaces.
@@ -251,7 +251,7 @@
     .bg-full-width.bg-color-3.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema2/13.svg", style="max-width: 90px").mx-auto
           .col-lg.text-white
             p.mb-0 La simplicidad procedimental ha sido clave para que la acción de tutela derribe barreras históricas como la pobreza, la falta de educación jurídica o la marginalización territorial. Incluso una carta manuscrita puede activar el proceso. Esto ha permitido a comunidades excluidas acceder a la justicia y empoderarse frente al Estado y actores privados.
@@ -261,20 +261,20 @@
         figure
           img(src="@/assets/curso/tema2/14.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        .row.align-items-center.mb-3
-          .col-lg-auto
+        .row.align-items-center.mb-3.justify-content-center
+          .col-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema2/40.svg", style="max-width: 90px").mx-auto
-          .col-lg
+          .col
             h2.mb-0 Tutela frente a particulares y control judicial
         p(data-aos="fade-left") Uno de los elementos más innovadores de la tutela es su aplicación en relaciones privadas, cuando una de las partes ostenta una posición de poder. Así, ha protegido derechos en contextos laborales, educativos, de salud y servicios públicos, frente a clínicas, EPS, empleadores o instituciones privadas.
     
         .bg-color-2.p-5(data-aos="fade-left")
           p.mb-0 Además, ha tenido un efecto profundo en la redefinición del control judicial. La Corte ha validado su procedencia contra sentencias judiciales, cuando estas violan derechos fundamentales de manera manifiesta. Este uso ha generado debates sobre la tensión entre seguridad jurídica y justicia material, pero la Corte lo ha justificado en virtud del principio de supremacía constitucional (Cifuentes Muñoz, 2005).
     
-    .row.align-items-center.mb-3
-      .col-lg-auto
+    .row.align-items-center.mb-3.justify-content-center
+      .col-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema2/40.svg", style="max-width: 90px").mx-auto
-      .col-lg
+      .col
         h2.mb-0 Jurisprudencia transformadora
     
     p.mb-5 La Corte Constitucional ha interpretado y consolidado los alcances de la tutela. Dos fallos paradigmáticos:
@@ -298,15 +298,15 @@
         .bg-full-width.bg-color-3.mb-5
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/13.svg", style="max-width: 90px").mx-auto
               .col-lg.text-white
                 p.mb-0 Estas decisiones muestran cómo la tutela trasciende el ámbito individual para impactar estructuralmente políticas públicas, haciendo del juez constitucional un actor de transformación institucional.
 
-    .row.align-items-center.mb-5
-      .col-lg-auto
+    .row.align-items-center.mb-5.justify-content-center
+      .col-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema2/40.svg", style="max-width: 90px").mx-auto
-      .col-lg
+      .col
         h2.mb-0 Legitimidad social y desafíos
     
     .bg-full-width.bg-color-6
@@ -329,10 +329,10 @@
                   p.mb-0 Selección de tutelas por parte de la Corte, para concentrarse en casos de impacto estructural.
             p.mb-0 La jurisprudencia ha reiterado su carácter subsidiario y excepcional, y ha fijado límites claros para evitar abusos y preservar su eficacia.
 
-        .row.align-items-center.mb-5
-          .col-lg-auto
+        .row.align-items-center.mb-5.justify-content-center
+          .col-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema2/40.svg", style="max-width: 90px").mx-auto
-          .col-lg
+          .col
             h2.mb-0 Expansión de derechos y presencia territorial
         
         p.mb-5 La acción de tutela ha servido para visibilizar derechos no reconocidos tradicionalmente, como:
@@ -341,7 +341,7 @@
           .col-lg-4.mb-3.mb-lg-0
             .bg-color-3.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/18.svg", style="max-width: 90px").mx-auto
                 .col-lg.text-white
                   h5.mb-2 01
@@ -349,7 +349,7 @@
           .col-lg-4.mb-3.mb-lg-0
             .bg-color-3.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/19.svg", style="max-width: 90px").mx-auto
                 .col-lg.text-white
                   h5.mb-2 02
@@ -357,7 +357,7 @@
           .col-lg-4.mb-3.mb-lg-0
             .bg-color-3.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/20.svg", style="max-width: 90px").mx-auto
                 .col-lg.text-white
                   h5.mb-2 03
@@ -367,7 +367,7 @@
           .col-lg-4.mb-3.mb-lg-0
             .bg-color-3.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/21.svg", style="max-width: 90px").mx-auto
                 .col-lg.text-white
                   h5.mb-2 04
@@ -375,7 +375,7 @@
           .col-lg-4.mb-3.mb-lg-0
             .bg-color-3.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/22.svg", style="max-width: 90px").mx-auto
                 .col-lg.text-white
                   h5.mb-2 05
@@ -383,7 +383,7 @@
           .col-lg-4.mb-3.mb-lg-0
             .bg-color-3.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/23.svg", style="max-width: 90px").mx-auto
                 .col-lg.text-white
                   h5.mb-2 06
@@ -393,7 +393,7 @@
         .bg-full-width.bg-color-3.mb-5
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/13.svg", style="max-width: 90px").mx-auto
               .col-lg.text-white
                 p.mb-0 En zonas rurales, comunidades indígenas, regiones afectadas por el conflicto armado y territorios sin presencia institucional, la tutela ha sido la única vía real de justicia (Castro Niño & Reyes Cuartas, 2023).
@@ -403,10 +403,10 @@
         figure
           img(src="@/assets/curso/tema2/24.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        .row.align-items-center.mb-3
-          .col-lg-auto
+        .row.align-items-center.mb-3.justify-content-center
+          .col-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema2/40.svg", style="max-width: 90px").mx-auto
-          .col-lg
+          .col
             h2.mb-0 Un puente entre justicia y ciudadanía
         p(data-aos="fade-left").mb-5 Pese a sus límites, la acción de tutela ha transformado la relación entre ciudadanía, derechos y poder. Ha convertido los derechos fundamentales en garantías exigibles, ha empoderado a individuos frente al Estado, y ha acercado el derecho a quienes históricamente fueron excluidos del sistema jurídico.
     
@@ -466,10 +466,10 @@
             figure
               img(src="@/assets/curso/tema2/26.png", data-aos="zoom-in")
           .col-lg-8.order-lg-1
-            .row.align-items-center.mb-3
-              .col-lg-auto
+            .row.align-items-center.mb-3.justify-content-center
+              .col-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/40.svg", style="max-width: 90px").mx-auto
-              .col-lg
+              .col
                 h2.mb-0 Fundamento y alcance
             .bg-color-7.p-5(data-aos="fade-left").mb-3
               p.mb-0 El artículo 4.º establece que la Constitución es “norma de normas”, y que en caso de contradicción entre esta y cualquier otra norma, prevalecerá la Constitución. Esta disposición no es simbólica, sino vinculante: impone a todos los jueces el deber de garantizar la primacía constitucional. Así, cuando el juez identifica que una norma aplicable vulnera un principio o derecho constitucional, está obligado a inaplicarla, aun cuando no exista pronunciamiento previo de la Corte Constitucional.
@@ -514,15 +514,15 @@
         .bg-full-width.bg-color-3.mb-5
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/13.svg", style="max-width: 90px").mx-auto
               .col-lg.text-white
                 p.mb-0 La Corte Constitucional ha respaldado el uso de esta figura, como lo establece la Sentencia C-600 de 1995, en la que se reconoció que el artículo 4.º autoriza a los jueces a ejercer control de constitucionalidad cuando una norma resulte contraria a la Carta, y que la inacción judicial ante esta situación constituye una violación al principio de legalidad constitucional.
     
-    .row.align-items-center.mb-5
-      .col-lg-auto
+    .row.align-items-center.mb-5.justify-content-center
+      .col-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema2/40.svg", style="max-width: 90px").mx-auto
-      .col-lg
+      .col
         h2.mb-0 Aplicaciones prácticas
     
     
@@ -545,10 +545,10 @@
     
     .bg-full-width.bg-color-8
       .px-4.px-md-5.pb-md-3
-        .row.align-items-center.mb-5
-          .col-lg-auto
+        .row.align-items-center.mb-5.justify-content-center
+          .col-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema2/40.svg", style="max-width: 90px").mx-auto
-          .col-lg
+          .col
             h2.mb-0 Retos y tensiones
         
         p.mb-5 Pese a su relevancia, el uso de la excepción de inconstitucionalidad enfrenta desafíos significativos:
@@ -573,10 +573,10 @@
                 h5.mb-2.text-center Relación con la cosa juzgada constitucional
                 p.mb-0 Aunque las normas declaradas exequibles están protegidas por la cosa juzgada, la jurisprudencia ha aceptado su inaplicación en casos excepcionales, por cambios contextuales o fácticos.
 
-    .row.align-items-center.mb-5
-      .col-lg-auto
+    .row.align-items-center.mb-5.justify-content-center
+      .col-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema2/40.svg", style="max-width: 90px").mx-auto
-      .col-lg
+      .col
         h2.mb-0 Valor jurídico y ético
     
     .row.mb-5
@@ -602,7 +602,7 @@
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://books.scielo.org/id/dtz2z/pdf/torres-9789587843897.pdf " target="_blank" rel="noopener noreferrer") TORRES-VILLARREAL, M., and IREGUI-PARRA, P. M., eds. Las acciones constitucionales: reflexiones sobre sus avances y retos [online]. Bogotá: Editorial Universidad del Rosario; Fundación Hanns Seidel, 2020.
-              
+
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://www.redalyc.org/pdf/945/94516586006.pdf  " target="_blank" rel="noopener noreferrer") Flórez Muñoz, DE, (2010). La acción pública de inconstitucionalidad como garantía del Estado constitucional en Colombia. Opinión Jurídica, 9 (18), 89-106. 

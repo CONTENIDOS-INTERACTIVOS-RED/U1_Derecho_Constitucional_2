@@ -10,7 +10,7 @@
       .col-lg-8.order-lg-1
         .bg-color-1.p-4(data-aos="fade-left").mb-3
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/2.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 El análisis de la Corte Constitucional permite comprender uno de los pilares fundamentales del sistema jurídico colombiano contemporáneo. Su creación respondió a la necesidad de consolidar un modelo de Estado basado en la protección efectiva de los derechos fundamentales, la garantía del principio de supremacía constitucional y la defensa del orden jurídico frente a posibles desviaciones del poder público.
@@ -163,7 +163,7 @@
         
             .bg-color-4.p-4(data-aos="fade-left")
               .row.align-items-start
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/14.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   p.mb-0 La Corte Constitucional se constituye como una institución con vocación garantista, defensora de la coherencia del orden jurídico con los principios democráticos, la justicia material y la dignidad humana. Sus funciones van más allá del ámbito técnico y la posicionan como uno de los actores más influyentes en la transformación del derecho y la vida pública colombiana.
@@ -215,7 +215,7 @@
     .bg-full-width.bg-color-3.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/22.svg", style="max-width: 90px").mx-auto
           .col-lg.text-white
             p.mb-0 Este diseño institucional busca evitar la concentración del poder de nominación en un solo órgano y asegurar un equilibrio entre las ramas del poder público, conforme al principio de colaboración armónica del artículo 113 de la Constitución (Montoya, 2013). La participación del Ejecutivo, el Judicial y el Legislativo tiene el objetivo de proteger la independencia de la Corte frente a presiones políticas o alineamientos ideológicos.
