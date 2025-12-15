@@ -591,6 +591,11 @@
         p En suma, la excepción de inconstitucionalidad fortalece el control constitucional desde la base judicial. Refuerza la descentralización del poder de interpretación, empodera a los jueces como actores constitucionales y ofrece una vía efectiva para proteger los derechos en contextos donde el formalismo normativo podría perpetuar injusticias.
 
 
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -642,8 +647,187 @@
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Herramientas colaborativas para la construcción de paz',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Qué principio orientador del bloque de constitucionalidad permite incorporar normas internacionales al orden constitucional colombiano?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Principio de legalidad',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Principio de supremacía constitucional',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Principio de jerarquía normativa',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Principio de proporcionalidad',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué papel cumple el bloque de constitucionalidad en el sistema jurídico colombiano?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Limita el alcance de la ley estatutaria',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Sirve como base para reformas tributarias',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Complementa el contenido de la Constitución con normas internacionales y del derecho interno con rango constitucional',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Sustituye el ordenamiento jurídico interno',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Qué órgano es competente para ejercer el control automático de constitucionalidad sobre los estados de excepción?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Consejo de Estado',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Corte Constitucional',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Fiscalía General de la Nación',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Procuraduría General de la Nación',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Cuál de las siguientes normas hace parte del bloque de constitucionalidad en sentido estricto?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Ley ordinaria',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Tratado internacional de derechos humanos ratificado por Colombia',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Decreto reglamentario',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Código Civil',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Qué efecto tiene el bloque de constitucionalidad sobre la interpretación de los derechos fundamentales?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Los restringe a lo dispuesto por la Corte Suprema',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Permite que se amplíen únicamente en leyes estatutarias',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Enriquecer su alcance con estándares internacionales',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Limita su aplicación a la legislación nacional',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -652,4 +836,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
